@@ -5,6 +5,7 @@
 #5.autoriza la participacion del usuario y lo mete en la cola.
 #6.permite consultar estado del acumulado del usuario.
 
+####
 class usuario:
     cc = '0'
     valor = 25000
