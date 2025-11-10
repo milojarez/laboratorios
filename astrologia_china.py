@@ -303,7 +303,7 @@ class AstrologiaChina:
         consejo = self.generar_consejo_personal(animal_zodiaco, elemento)
         
         # Seleccionar predicciones aleatorias
-        prediccion_amor = random.choice(predicciones_amor)
+        prediccion_amor = random.choice(self.predicciones_amor)
         prediccion_trabajo = random.choice(self.predicciones_trabajo)
         prediccion_salud = random.choice(self.predicciones_salud)
         prediccion_fortuna = random.choice(self.predicciones_fortuna)
